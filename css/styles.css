@@ -21,6 +21,7 @@
   --social-link-color: #afb1b8;
   --button-shadow: rgba(0, 0, 0, 0.25);
   --footer-social-link-color: rgba(255, 255, 255, 0.1);
+  --time-duration: 1000ms;
 }
 
 html {
@@ -151,7 +152,7 @@ img {
   padding-bottom: 32px;
   display: block;
   transition-property: color;
-  transition-duration: 250ms;
+  transition-duration: var(--time-duration);
   transition-timing-function: cubic-bezier(0.4, 0, 0.2, 1);
 }
 
@@ -166,7 +167,7 @@ img {
   display: flex;
   margin-left: auto;
   transition-property: color;
-  transition-duration: 250ms;
+  transition-duration: var(--time-duration);
   transition-timing-function: cubic-bezier(0.4, 0, 0.2, 1);
 }
 
@@ -348,14 +349,14 @@ img {
   justify-content: center;
   border-radius: 50%;
   transition-property: color;
-  transition-duration: 250ms;
+  transition-duration: var(--time-duration);
   transition-timing-function: cubic-bezier(0.4, 0, 0.2, 1);
 }
 
 .social-icon {
   fill: var(--social-link-color);
   transition-property: fill;
-  transition-duration: 250ms;
+  transition-duration: var(--time-duration);
   transition-timing-function: cubic-bezier(0.4, 0, 0.2, 1);
 }
 
