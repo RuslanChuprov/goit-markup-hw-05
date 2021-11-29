@@ -319,7 +319,8 @@ img {
 
 .features-text-box {
   position: absolute;
-
+  width: 370px;
+  height: 70px;
   bottom: 0;
   justify-content: center;
   align-items: center;
