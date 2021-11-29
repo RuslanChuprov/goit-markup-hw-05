@@ -183,6 +183,9 @@ img {
   background-color: var(--accent-text-color);
   left: 0;
   bottom: 0;
+  border: 1px solid var(--logo-color)
+  box-sizing: border-box;
+  border-radius: 2px;
 }
 
 /* -------------auth-nav ----------- */
