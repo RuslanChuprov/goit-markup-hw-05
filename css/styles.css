@@ -306,6 +306,7 @@ img {
 }
 
 .features-text {
+  color: var(--accent-color);
   margin: 0 auto;
   font-weight: 700;
   font-size: 14px;
