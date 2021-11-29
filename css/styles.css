@@ -92,6 +92,9 @@ img {
 .link {
   text-decoration: none;
   color: inherit;
+  transition-property: color;
+  transition-duration: var(--time-duration);
+  transition-timing-function: cubic-bezier(0.4, 0, 0.2, 1);
 }
 
 .logo {
@@ -358,7 +361,7 @@ img {
 
 .social-icon {
   fill: var(--social-link-color);
-  transition-property: fill;
+  transition-property: color;
   transition-duration: var(--time-duration);
   transition-timing-function: cubic-bezier(0.4, 0, 0.2, 1);
 }
@@ -395,6 +398,9 @@ img {
   border: 1px solid var(--social-link-color);
   box-sizing: border-box;
   border-radius: 4px;
+  transition-property: color;
+  transition-duration: var(--time-duration);
+  transition-timing-function: cubic-bezier(0.4, 0, 0.2, 1);
 }
 
 .customers-item + .customers-item {
@@ -407,6 +413,9 @@ img {
   display: flex;
   align-items: center;
   justify-content: center;
+  transition-property: color;
+  transition-duration: var(--time-duration);
+  transition-timing-function: cubic-bezier(0.4, 0, 0.2, 1);
 }
 
 .customers-icon {
@@ -423,13 +432,11 @@ img {
 .customers-link:hover,
 .customers-link:focus {
   background-color: var(--accent-color);
-  /* border: 1px solid var(--accent-text-color); */
 }
 
 .customers-link:hover .customers-icon,
 .customers-link:focus .customers-icon {
   fill: var(--accent-text-color);
-  /* border-color: var(--accent-text-color); */
 }
 
 .projects {
@@ -445,6 +452,9 @@ img {
   width: 370px;
   height: 404px;
   margin-right: 30px;
+  transition-property: color;
+  transition-duration: var(--time-duration);
+  transition-timing-function: cubic-bezier(0.4, 0, 0.2, 1);
 }
 
 .projects .item:hover,
@@ -562,6 +572,9 @@ img {
   font-size: 16px;
   line-height: 1.6;
   cursor: pointer;
+  transition-property: color;
+  transition-duration: var(--time-duration);
+  transition-timing-function: cubic-bezier(0.4, 0, 0.2, 1);
 }
 
 .portfolio-button:hover,
@@ -669,6 +682,9 @@ img {
   border-radius: 50%;
   width: 44px;
   height: 44px;
+  transition-property: color;
+  transition-duration: var(--time-duration);
+  transition-timing-function: cubic-bezier(0.4, 0, 0.2, 1);
 }
 
 .footer-social-link {
@@ -678,6 +694,9 @@ img {
   align-items: center;
   justify-content: center;
   border-radius: 50%;
+  transition-property: color;
+  transition-duration: var(--time-duration);
+  transition-timing-function: cubic-bezier(0.4, 0, 0.2, 1);
 }
 .footer-social-item + .footer-social-item {
   margin-left: 10px;
