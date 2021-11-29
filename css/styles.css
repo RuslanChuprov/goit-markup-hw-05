@@ -326,8 +326,8 @@ img {
   width: 370px;
   height: 70px;
   bottom: 0;
-  justify-content: center;
-  align-items: center;
+  /* justify-content: center; */
+  /* align-items: center; */
 }
 
 .employees {
