@@ -186,6 +186,9 @@ img {
   letter-spacing: 0.02em;
   padding: 32px 0;
   align-items: center;
+  transition-property: color;
+  transition-duration: var(--time-duration);
+  transition-timing-function: cubic-bezier(0.4, 0, 0.2, 1);
 }
 
 .auth-nav .link:hover,
