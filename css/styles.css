@@ -210,7 +210,7 @@ img {
 .phone-icon {
   fill: currentColor;
   margin-right: 10px;
-  transition-property: color;
+  transition-property: fill;
   transition-duration: var(--time-duration);
   transition-timing-function: cubic-bezier(0.4, 0, 0.2, 1);
 }
@@ -367,7 +367,7 @@ img {
 
 .social-icon {
   fill: var(--social-link-color);
-  transition-property: color;
+  transition-property: fill;
   transition-duration: var(--time-duration);
   transition-timing-function: cubic-bezier(0.4, 0, 0.2, 1);
 }
@@ -426,7 +426,7 @@ img {
 
 .customers-icon {
   fill: var(--social-link-color);
-  transition-property: color;
+  transition-property: fill;
   transition-duration: var(--time-duration);
   transition-timing-function: cubic-bezier(0.4, 0, 0.2, 1);
 }
@@ -577,6 +577,9 @@ img {
 
 .btns-list {
   margin-left: 8px;
+  transition-property: color;
+  transition-duration: var(--time-duration);
+  transition-timing-function: cubic-bezier(0.4, 0, 0.2, 1);
 }
 
 .portfolio-button {
@@ -715,17 +718,17 @@ img {
   transition-property: color;
   transition-duration: var(--time-duration);
   transition-timing-function: cubic-bezier(0.4, 0, 0.2, 1);
+  color: var(--footer-social-link-color);
 }
 .footer-social-item + .footer-social-item {
   margin-left: 10px;
 }
 
-.footer-social-link {
-  color: var(--footer-social-link-color);
-}
-
 .footer-social-icon {
   fill: var(--accent-color);
+  transition-property: fill;
+  transition-duration: var(--time-duration);
+  transition-timing-function: cubic-bezier(0.4, 0, 0.2, 1);
 }
 
 .footer-social-link:hover .footer-social-icon,
