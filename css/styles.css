@@ -307,8 +307,11 @@ img {
 }
 
 .features-text {
+  position: absolute;
+  top: 50%;
+  bottom: 50%;
   color: var(--accent-color);
-  margin: 0 auto;
+  /* margin: 0 auto; */
   font-weight: 700;
   font-size: 14px;
   line-height: 1.2;
@@ -319,11 +322,12 @@ img {
 
 .features-text-box {
   position: absolute;
+  background-color: var(--features-background-color);
   width: 370px;
   height: 70px;
   bottom: 0;
-  justify-content: center;
-  align-items: center;
+  /* justify-content: center; */
+  /* align-items: center; */
 }
 
 .employees {
