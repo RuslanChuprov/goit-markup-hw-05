@@ -308,6 +308,11 @@ img {
 .features-text {
 }
 
+.features-text-box {
+  position: absolute;
+  bottom: 0;
+}
+
 .employees {
   display: flex;
 }
