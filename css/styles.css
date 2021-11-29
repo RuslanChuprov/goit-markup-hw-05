@@ -103,6 +103,9 @@ img {
   font-weight: 700;
   font-size: 26px;
   line-height: 1.2;
+  transition-property: color;
+  transition-duration: var(--time-duration);
+  transition-timing-function: cubic-bezier(0.4, 0, 0.2, 1);
 }
 
 .top-logo {
@@ -141,6 +144,9 @@ img {
   font-size: 14px;
   line-height: 1.2;
   letter-spacing: 0.02em;
+  transition-property: color;
+  transition-duration: var(--time-duration);
+  transition-timing-function: cubic-bezier(0.4, 0, 0.2, 1);
 }
 
 .site-nav .item + .item {
@@ -169,6 +175,9 @@ img {
 .auth-nav {
   display: flex;
   margin-left: auto;
+  transition-property: color;
+  transition-duration: var(--time-duration);
+  transition-timing-function: cubic-bezier(0.4, 0, 0.2, 1);
 }
 
 .auth-nav .item + .item {
