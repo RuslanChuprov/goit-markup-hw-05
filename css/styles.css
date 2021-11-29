@@ -210,6 +210,9 @@ img {
 .phone-icon {
   fill: currentColor;
   margin-right: 10px;
+  transition-property: color;
+  transition-duration: var(--time-duration);
+  transition-timing-function: cubic-bezier(0.4, 0, 0.2, 1);
 }
 
 /*--------------- Hero------*/
@@ -341,6 +344,9 @@ img {
   width: 44px;
   height: 44px;
   border-radius: 50%;
+  transition-property: color;
+  transition-duration: var(--time-duration);
+  transition-timing-function: cubic-bezier(0.4, 0, 0.2, 1);
 }
 
 .team-social-item + .team-social-item {
@@ -420,6 +426,9 @@ img {
 
 .customers-icon {
   fill: var(--social-link-color);
+  transition-property: color;
+  transition-duration: var(--time-duration);
+  transition-timing-function: cubic-bezier(0.4, 0, 0.2, 1);
 }
 
 .customers-item:hover,
@@ -445,6 +454,9 @@ img {
 
   padding-left: 0;
   padding-right: 0;
+  transition-property: color;
+  transition-duration: var(--time-duration);
+  transition-timing-function: cubic-bezier(0.4, 0, 0.2, 1);
 }
 
 .projects .item {
@@ -544,6 +556,9 @@ img {
 
 .portfolio-section {
   padding: 94px 0;
+  transition-property: color;
+  transition-duration: var(--time-duration);
+  transition-timing-function: cubic-bezier(0.4, 0, 0.2, 1);
 }
 
 .portfolio-btns {
@@ -551,6 +566,9 @@ img {
   justify-content: center;
   align-self: center;
   margin-bottom: 50px;
+  transition-property: color;
+  transition-duration: var(--time-duration);
+  transition-timing-function: cubic-bezier(0.4, 0, 0.2, 1);
 }
 
 .btns-list:first-child {
