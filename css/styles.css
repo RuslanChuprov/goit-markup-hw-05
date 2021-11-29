@@ -92,9 +92,9 @@ img {
 .link {
   text-decoration: none;
   color: inherit;
-  transition-property: color;
-  transition-duration: var(--time-duration);
-  transition-timing-function: cubic-bezier(0.4, 0, 0.2, 1);
+  transition-property: color var(--time-duration) cubic-bezier(0.4, 0, 0.2, 1);
+  /* transition-duration: var(--time-duration); */
+  /* transition-timing-function: cubic-bezier(0.4, 0, 0.2, 1); */
 }
 
 .logo {
@@ -154,9 +154,10 @@ img {
   padding-top: 32px;
   padding-bottom: 32px;
   display: block;
-  transition-property: color;
-  transition-duration: var(--time-duration);
-  transition-timing-function: cubic-bezier(0.4, 0, 0.2, 1);
+  transition-property: color var(--time-duration) cubic-bezier(0.4, 0, 0.2, 1);
+  /* transition-property: color; */
+  /* transition-duration: var(--time-duration); */
+  /* transition-timing-function: cubic-bezier(0.4, 0, 0.2, 1); */
 }
 
 .site-nav .link:hover,
@@ -165,13 +166,10 @@ img {
   color: var(--accent-text-color);
 }
 
-/* auth-nav */
+/* -------------auth-nav ----------- */
 .auth-nav {
   display: flex;
   margin-left: auto;
-  /* transition-property: color; */
-  /* transition-duration: var(--time-duration); */
-  /* transition-timing-function: cubic-bezier(0.4, 0, 0.2, 1); */
 }
 
 .auth-nav .item + .item {
@@ -189,9 +187,10 @@ img {
   letter-spacing: 0.02em;
   padding: 32px 0;
   align-items: center;
-  transition-property: color;
-  transition-duration: var(--time-duration);
-  transition-timing-function: cubic-bezier(0.4, 0, 0.2, 1);
+  transition-property: color var(--time-duration) cubic-bezier(0.4, 0, 0.2, 1);
+  /* transition-property: color; */
+  /* transition-duration: var(--time-duration); */
+  /* transition-timing-function: cubic-bezier(0.4, 0, 0.2, 1); */
 }
 
 .auth-nav .link:hover,
