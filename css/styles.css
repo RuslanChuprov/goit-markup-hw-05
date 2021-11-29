@@ -216,7 +216,7 @@ img {
 .phone-icon {
   fill: currentColor;
   margin-right: 10px;
-  transition-property: fill;
+  transition-property: fill, color;
   transition-duration: var(--time-duration);
   transition-timing-function: cubic-bezier(0.4, 0, 0.2, 1);
 }
