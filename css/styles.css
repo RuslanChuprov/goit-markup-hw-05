@@ -794,7 +794,7 @@ img {
   left: 50%;
   transform: translate(-50%, -50%);
   width: 528;
-  min-height: 581;
+  height: 581;
   background-color: var(--background-color);
   border-radius: 5px;
 }
@@ -808,4 +808,7 @@ img {
   background-color: transparent;
   border-radius: 50%;
   border: 1px solid var(--address-color);
+  display: block;
+  align-items: center;
+  justify-content: center;
 }
