@@ -794,6 +794,7 @@ img {
   top: 50%;
   left: 50%;
   transform: rotate(0) translate(-50%, -50%);
+  transition: transform var(--time-duration);
   width: 528px;
   height: 581px;
   background-color: var(--background-color);
