@@ -793,7 +793,7 @@ img {
   position: absolute;
   top: 50%;
   left: 50%;
-  transform: translate(-50%, -50%);
+  transform: scale (1) translate(-50%, -50%);
   width: 528px;
   height: 581px;
   background-color: var(--background-color);
@@ -818,4 +818,8 @@ img {
   visibility: hidden;
   opacity: 0;
   pointer-events: none;
+}
+
+.backdrop.is-hidden .modal {
+  transform: scale(1.5);
 }
