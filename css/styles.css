@@ -808,7 +808,7 @@ img {
   background-color: transparent;
   border-radius: 50%;
   border: 1px solid var(--address-color);
-  display: block;
+  display: flex;
   align-items: center;
   justify-content: center;
 }
