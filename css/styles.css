@@ -687,6 +687,7 @@ img {
 
 .project-item-wrap {
   position: relative;
+  overflow: hidden;
 }
 
 .project-top-text {
