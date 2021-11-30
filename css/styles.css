@@ -789,7 +789,7 @@ img {
   transition: opacity var(--time-duration), visibility var(--time-duration);
 }
 
-.backdrop .modal {
+.modal {
   position: absolute;
   top: 50%;
   left: 50%;
