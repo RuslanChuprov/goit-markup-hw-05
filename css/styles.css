@@ -782,9 +782,8 @@ img {
 .backdrop {
   position: fixed;
   width: 100vw;
-  height: 100vw;
-  background-color: var(--backdrop-color);
-  
+  height: 100vh;
+  background-color: var(--backdrop-color);  
   top: 0;
   left: 0;
 }
@@ -798,4 +797,11 @@ img {
   min-height: 581;
   background-color: var(--background-color);
   border-radius: 5px;
+}
+
+.modal-close-button {
+  position: absolute;
+  top: 6px;
+  right: 6px;
+
 }
