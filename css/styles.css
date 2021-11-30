@@ -786,6 +786,7 @@ img {
   background-color: var(--backdrop-color);  
   top: 0;
   left: 0;
+  transition: opacity var(--time-duration), visibility var(--time-duration);
 }
 
 .backdrop .modal {
