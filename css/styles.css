@@ -680,6 +680,10 @@ img {
   line-height: 1.87;
 }
 
+.project-item-wrap {
+  position: relative;
+}
+
 .project-top-text {
   position: absolute;
   top: 0;
