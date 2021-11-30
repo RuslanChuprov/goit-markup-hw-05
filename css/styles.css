@@ -803,5 +803,9 @@ img {
   position: absolute;
   top: 6px;
   right: 6px;
-
+  width: 30px;
+  height: 30px;
+  background-color: transparent;
+  border-radius: 50%;
+  border: 1px solid var(--address-color);
 }
