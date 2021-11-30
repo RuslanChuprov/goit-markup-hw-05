@@ -512,7 +512,6 @@ img {
 }
 
 .projects .item {
-  position: relative;
   text-align: left;
   width: 370px;
   height: 404px;
@@ -526,6 +525,12 @@ img {
 .projects .item:focus {
   box-shadow: 0 4px 4px 0 var(--button-shadow);
 }
+
+.projects .item:hover .project-top-text,
+.projects .item:focus .project-top-text {
+  transform: translateY(0);
+}
+
 
 .projects .item:nth-child(3n) {
   margin-right: 0;
@@ -694,11 +699,13 @@ img {
   font-size: 18px;
   line-height: 1.55;
   letter-spacing: 0.03em;
-  padding: 63px 24px;
+  margin: 63px 24px;
+  transform: translateY(100%);
+  transition: transform var(--time-duration);
 }
 
 
-/* Footer */
+/* -----------Footer------ */
 
 .address .link {
   color: var(--address-color);
