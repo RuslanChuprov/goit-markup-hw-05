@@ -602,7 +602,7 @@ img {
 
 .btns-list {
   margin-left: 8px;
-  /* transition: color var(--time-duration) cubic-bezier(0.4, 0, 0.2, 1); */
+  transition: background-color var(--time-duration) cubic-bezier(0.4, 0, 0.2, 1);
 }
 
 .portfolio-button {
