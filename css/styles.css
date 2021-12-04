@@ -758,7 +758,7 @@ img {
   border-radius: 50%;
   transition: background-color var(--time-duration) cubic-bezier(0.4, 0, 0.2, 1);
   /* color var(--time-duration) cubic-bezier(0.4, 0, 0.2, 1);   */
-  color: var(--footer-social-link-color);
+  background-color: var(--footer-social-link-color);
 }
 .footer-social-item + .footer-social-item {
   margin-left: 10px;
