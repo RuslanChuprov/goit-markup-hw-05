@@ -223,8 +223,8 @@ img {
 .phone-icon {
   fill: currentColor;
   margin-right: 10px;
-  transition: fill var(--time-duration) cubic-bezier(0.4, 0, 0.2, 1), 
-  color var(--time-duration) cubic-bezier(0.4, 0, 0.2, 1);
+  /* transition: fill var(--time-duration) cubic-bezier(0.4, 0, 0.2, 1),  */
+  /* color var(--time-duration) cubic-bezier(0.4, 0, 0.2, 1); */
   
 }
 
@@ -321,7 +321,7 @@ img {
   font-weight: 700;
   font-size: 14px;
   line-height: 1.2;
-  text-align: center;
+  text-align: justify;
   letter-spacing: 0.03em;
   text-transform: uppercase;
 }
@@ -689,7 +689,7 @@ img {
 }
 
 .footer .bottom {
-  align-items: center;
+  align-items: baseline;
 }
 
 .page {
