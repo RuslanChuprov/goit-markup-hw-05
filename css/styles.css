@@ -111,7 +111,7 @@ img {
   color: var(--logo-color);
 }
 
-.logo-header {
+.logo-header .logo{
   padding-top: 24px;
   padding-bottom: 24px;
 }
@@ -224,7 +224,7 @@ img {
   fill: currentColor;
   margin-right: 10px;
   transition: cubic-bezier(0.4, 0, 0.2, 1), 
-  /* color var(--time-duration)*/ cubic-bezier(0.4, 0, 0.2, 1); 
+  cubic-bezier(0.4, 0, 0.2, 1); 
   
 }
 
@@ -658,14 +658,14 @@ img {
   position: absolute;
   top: 0;
   left: 0;
-  height: 101%;
+  height: 100%;
   color: var(--accent-color);
   background-color: var(--top-box-color);
   font-size: 18px;
   line-height: 1.55;
   letter-spacing: 0.03em;
   padding: 63px 24px;
-  transform: translateY(100%);
+  transform: translateY(101%);
   transition: transform var(--time-duration);
 }
 
@@ -756,8 +756,8 @@ img {
   align-items: center;
   justify-content: center;
   border-radius: 50%;
-  transition: background-color var(--time-duration) cubic-bezier(0.4, 0, 0.2, 1),
-  color var(--time-duration) cubic-bezier(0.4, 0, 0.2, 1);  
+  transition: background-color var(--time-duration) cubic-bezier(0.4, 0, 0.2, 1);
+  /* color var(--time-duration) cubic-bezier(0.4, 0, 0.2, 1);   */
   color: var(--footer-social-link-color);
 }
 .footer-social-item + .footer-social-item {
