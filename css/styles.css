@@ -313,15 +313,15 @@ img {
 }
 
 .features-text {
-  position: absolute;
-  top: 50%;
-  left: 50%;
-  transform: translate(-50%, -50%);
+  /* position: absolute; */
+  /* top: 50%; */
+  /* left: 50%; */
+  /* transform: translate(-50%, -50%); */
   color: var(--accent-color);
   font-weight: 700;
   font-size: 14px;
   line-height: 1.2;
-  text-align: justify;
+  /* text-align: justify; */
   letter-spacing: 0.03em;
   text-transform: uppercase;
 }
@@ -332,6 +332,10 @@ img {
   width: 370px;
   height: 70px;
   bottom: 0;  
+  /* !!!!!!!!!! */
+  display: flex;
+  justify-content: center;
+  align-items: center;
 }
 
 .employees {
