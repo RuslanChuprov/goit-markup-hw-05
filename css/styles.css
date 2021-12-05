@@ -492,12 +492,12 @@ img {
 }
 
 .projects .item:hover,
-.projects .item:focus {
+.projects .content:focus {
   box-shadow: 0 4px 4px 0 var(--button-shadow);
 }
 
-.projects .item:hover .project-top-text,
-.projects .item:focus .project-top-text {
+.projects.item:hover .project-top-text, 
+.projects.content:focus .project-top-text {
   transform: translateY(0);
 }
 
