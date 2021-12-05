@@ -491,6 +491,10 @@ img {
   transition: color var(--time-duration) cubic-bezier(0.4, 0, 0.2, 1);
 }
 
+.project-wrap {
+  display: block;
+}
+
 .projects .item:hover,
 .projects .project-wrap:focus {
   box-shadow: 0 4px 4px 0 var(--button-shadow);
