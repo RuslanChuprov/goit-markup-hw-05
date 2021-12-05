@@ -496,7 +496,7 @@ img {
 }
 
 .projects .item:hover,
-.projects .project-wrap:focus {
+.projects .project-wrap:focus .item{
   box-shadow: 0 4px 4px 0 var(--button-shadow);
 }
 
