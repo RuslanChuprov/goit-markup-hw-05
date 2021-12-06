@@ -177,7 +177,7 @@ img {
   background-color: var(--accent-text-color);
   left: 0;
   bottom: 0;
-  border: 1px solid var(--logo-color)
+  border: 1px solid var(--logo-color);
   box-sizing: border-box;
   border-radius: 2px;
 }
@@ -225,7 +225,6 @@ img {
   margin-right: 10px;
   /* transition: cubic-bezier(0.4, 0, 0.2, 1),  */
   /* cubic-bezier(0.4, 0, 0.2, 1);  */
-  
 }
 
 /*--------------- Hero------*/
@@ -326,7 +325,7 @@ img {
   background-color: var(--features-background-color);
   width: 370px;
   height: 70px;
-  bottom: 0;  
+  bottom: 0;
   display: flex;
   justify-content: center;
   align-items: center;
@@ -395,8 +394,8 @@ img {
   align-items: center;
   justify-content: center;
   border-radius: 50%;
-  transition: color var(--time-duration) cubic-bezier(0.4, 0, 0.2, 1), 
-  background-color var(--time-duration) cubic-bezier(0.4, 0, 0.2, 1);  
+  transition: color var(--time-duration) cubic-bezier(0.4, 0, 0.2, 1),
+    background-color var(--time-duration) cubic-bezier(0.4, 0, 0.2, 1);
 }
 
 .social-icon {
@@ -449,7 +448,7 @@ img {
   display: flex;
   align-items: center;
   justify-content: center;
-  transition: color var(--time-duration)  cubic-bezier(0.4, 0, 0.2, 1);
+  transition: color var(--time-duration) cubic-bezier(0.4, 0, 0.2, 1);
 }
 
 .customers-icon {
@@ -505,10 +504,9 @@ img {
 /* .projects .item:hover .project-top-text, */
 
 .projects .project-wrap:hover .project-top-text,
-.projects .project-wrap:focus .project-top-text  {
+.projects .project-wrap:focus .project-top-text {
   transform: translateY(0);
 }
-
 
 .projects .item:nth-child(3n) {
   margin-right: 0;
@@ -599,7 +597,7 @@ img {
   display: flex;
   justify-content: center;
   align-self: center;
-  margin-bottom: 50px; 
+  margin-bottom: 50px;
 }
 
 .btns-list:first-child {
@@ -623,7 +621,7 @@ img {
   line-height: 1.6;
   cursor: pointer;
   transition: color var(--time-duration) cubic-bezier(0.4, 0, 0.2, 1),
-  background-color var(--time-duration) cubic-bezier(0.4, 0, 0.2, 1);
+    background-color var(--time-duration) cubic-bezier(0.4, 0, 0.2, 1);
 }
 
 .portfolio-button:hover,
@@ -674,7 +672,6 @@ img {
   transform: translateY(101%);
   transition: transform var(--time-duration);
 }
-
 
 /* -----------Footer------ */
 
@@ -788,7 +785,7 @@ img {
   position: fixed;
   width: 100vw;
   height: 100vh;
-  background-color: var(--backdrop-color);  
+  background-color: var(--backdrop-color);
   top: 0;
   left: 0;
   transition: opacity var(--time-duration), visibility var(--time-duration);
