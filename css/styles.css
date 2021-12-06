@@ -212,11 +212,11 @@ img {
   color: var(--accent-text-color);
 }
 
-/* .auth-nav .link:hover .mail-icon, */
-/* .auth-nav .link:focus .mail-icon, */
-/* .auth-nav .link:hover .phone-icon, */
-/* .auth-nav .link:focus .phone-icon { */
-  /* color: var(--accent-text-color); */
+.auth-nav .link:hover .mail-icon,
+.auth-nav .link:focus .mail-icon,
+.auth-nav .link:hover .phone-icon,
+.auth-nav .link:focus .phone-icon {
+  color: var(--accent-text-color);
 }
 
 .mail-icon,
