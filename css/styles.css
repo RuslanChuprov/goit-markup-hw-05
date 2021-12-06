@@ -495,12 +495,16 @@ img {
   display: block;
 }
 
-.projects .item:hover,
+/* .projects .item:hover, */
+
+.projects .project-wrap:hover .item:focus
 .projects .project-wrap:focus .item:focus{
   box-shadow: 0 4px 4px 0 var(--button-shadow);
 }
 
-.projects .item:hover .project-top-text,
+/* .projects .item:hover .project-top-text, */
+
+.projects .project-wrap:hover .project-top-text,
 .projects .project-wrap:focus .project-top-text  {
   transform: translateY(0);
 }
