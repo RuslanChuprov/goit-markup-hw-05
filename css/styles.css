@@ -497,8 +497,8 @@ img {
 
 /* .projects .item:hover, */
 
-.projects .project-wrap:hover .item:focus
-.projects .project-wrap:focus .item:focus{
+.projects .project-wrap:hover,
+.projects .project-wrap:focus {
   box-shadow: 0 4px 4px 0 var(--button-shadow);
 }
 
