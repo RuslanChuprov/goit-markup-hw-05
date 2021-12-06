@@ -111,7 +111,7 @@ img {
   color: var(--logo-color);
 }
 
-.logo-header .logo{
+.logo-header {
   padding-top: 24px;
   padding-bottom: 24px;
 }
